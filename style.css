@@ -1,0 +1,23 @@
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Empresa{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 610px;
+    font-size: 25px;
+    gap: 60px;
+}
+
+.banner{
+    width: 100%;  
+    
+
+}
