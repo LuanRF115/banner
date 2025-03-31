@@ -1,10 +1,4 @@
 
-let nome = "Luan"
-let idade = 18
-let telefone = null
-
-nome = "Luan Felipe"
-
 let nomeCompleto = ""
 nomeCompleto = prompt("Informe seu nome completo ")
 console.log(nomeCompleto)
