@@ -115,3 +115,52 @@ table {
  
 }
 
+.divulgacao{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    width: 3%;
+    gap: 30px;
+    margin-left: 160px;
+}
+
+.divulgacao-acade{
+    display: flex;
+    width: 840%;
+}
+
+.divulgacao-fisio{
+    display: flex;
+    width: 840%;
+}
+
+.divulgacao-treino{
+    display: flex;
+    width: 840%;
+}
+
+.contatos{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 3px ; 
+    padding: 20px;
+    background-color: aqua;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+.contato-escrita{
+    width: 500px;
+    height: 40px;
+}
+
+.botao{
+    width:200px
+    
+}
