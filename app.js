@@ -28,14 +28,16 @@ function fnTrocarCorDeFundo(){
 
 function fnMostraHoraAtual(){
 
-   let agora = new Date(); // Obtém a data e hora atual
-   let horaFormatada = agora.toLocaleTimeString(); // Formata para exibição
-   alert("Hora atual: " + horaFormatada); // Exibe a hora no alert
+   let agora = new Date() // Obtém a data e hora atual
+   let horaFormatada = agora.toLocaleTimeString()// Formata para exibição
+   alert("Hora atual: " + horaFormatada) // Exibe a hora no alert
 
 }
 
 function fnTrocarTitulo(){
-   document.getElementById("titulo").innerText ="Seu treino ideal"
+
+   let novoTexto = prompt("Digite o novo título:")
+   document.getElementById("titulo").innerText = novoTexto
 }
 
 
