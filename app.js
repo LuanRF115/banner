@@ -57,3 +57,15 @@ function fnIdiomaEspanhol() {
    document.getElementById("menu2").innerText = "SERVICIOS";
    document.getElementById("menu3").innerText = "CONTACTO";
 }
+
+function fnBanner1(){
+   document.getElementById("bannerr").src="imagens/bannerr.jpg"
+}
+
+function fnBanner2(){
+   document.getElementById("bannerr").src="imagens/banner2.jpeg"
+}
+
+function fnBanner3(){
+   document.getElementById("bannerr").src="imagens/banner3.jpeg"
+}

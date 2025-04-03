@@ -173,3 +173,11 @@ table {
     
 }
 
+.bannerr{
+
+    margin-top: 20px;
+    display: flex;
+    width: 80%;  
+    margin-left: 155px;
+}
+
