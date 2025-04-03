@@ -69,3 +69,27 @@ function fnBanner2(){
 function fnBanner3(){
    document.getElementById("bannerr").src="imagens/banner3.jpeg"
 }
+
+function fnDastaque1Trocar() {
+   document.getElementById("destaque1").src = "imagens/banner2.jpeg";
+}
+
+function fnDastaque1Original() {
+   document.getElementById("destaque1").src = "imagens/arobico.jpg";
+}
+
+function fnDastaque2Trocar() {
+   document.getElementById("destaque2").src = "imagens/banner2.jpeg";
+}
+
+function fnDastaque2Original() {
+   document.getElementById("destaque2").src = "imagens/fisoterapia.jfif";
+}
+
+function fnDastaque3Trocar() {
+   document.getElementById("destaque3").src = "imagens/banner2.jpeg";
+}
+
+function fnDastaque3Original() {
+   document.getElementById("destaque3").src = "imagens/treino atleta.jfif";
+}
