@@ -93,3 +93,18 @@ function fnDastaque3Trocar() {
 function fnDastaque3Original() {
    document.getElementById("destaque3").src = "imagens/treino atleta.jfif";
 }
+
+function fnRegistrarContato(){
+   let nome = document.getElementById("nome").value
+   let email = document.getElementById("email").value
+   let mensagem = document.getElementById("mensagem").value
+   let informacoesCompleta = nome + " - " + email + " <br> " + mensagem
+   document.getElementById("informacoes").innerHTML = informacoesCompleta
+
+   //limpar os campos
+   document.getElementById("nome").value = ""
+   document.getElementById("email").value = ""
+   document.getElementById("mensagem").value = ""
+   document.getElementById("mensagen").value = ""
+
+}

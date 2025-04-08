@@ -66,12 +66,21 @@
 
     </div>
 
-    <div class="contatos">
-        <input type="text" placeholder="Nome" class="contato-escrita">
-        <input type="email" placeholder="E-mail" class="contato-escrita">
-        <input type="text" placeholder="Mensagem" class="contato-escrita">
-        <button class="botao">ENVIAR</button>
-    </div>
+    <section class="contatos">
+        <h2>ENTRE EM CONTATO</h2>
+        <p>Não perca a oportunidade de manter sua casa sem insetos indesejados! Preencha agora mesmo nosso
+            formulário de contato e receba uma resposta em breve!.</p>
+        <form>
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="text" id="mensagem" placeholder="Qual dos nossos serviços você tem interesse?">
+            <textarea id="mensagen" placeholder="Mensagem"></textarea>
+            <button type="button" onclick="fnRegistrarContato()">ENVIAR</button>
+            <p id="informacoes"></p>
+        </form>
+
+    </section>
+     
     <script src="app.js"></script>
 </body>
 </html>
